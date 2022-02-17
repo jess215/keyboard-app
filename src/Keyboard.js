@@ -93,35 +93,36 @@ const Keyboard = (props) => {
     return (
         <div>
             <h1>{props.x} {props.title}</h1>
-            <h3>Input</h3>
+            <h3>Enter wish here:</h3>
             <p>{count}</p>
-            <button onClick={a}>a</button>
-            <button onClick={b}>b</button>
-            <button onClick={c}>c</button>
-            <button onClick={d}>d</button>
-            <button onClick={e}>e</button>
-            <button onClick={f}>f</button>
-            <button onClick={g}>g</button>
-            <button onClick={h}>h</button>
-            <button onClick={i}>i</button>
-            <button onClick={j}>j</button>
-            <button onClick={k}>k</button>
-            <button onClick={l}>l</button>
-            <button onClick={m}>m</button>
-            <button onClick={n}>n</button>
-            <button onClick={o}>o</button>
-            <button onClick={p}>p</button>
-            <button onClick={q}>q</button>
-            <button onClick={r}>r</button>
-            <button onClick={s}>s</button>
-            <button onClick={t}>t</button>
-            <button onClick={u}>u</button>
-            <button onClick={v}>v</button>
-            <button onClick={w}>w</button>
-            <button onClick={x}>x</button>
-            <button onClick={y}>y</button>
-            <button onClick={z}>z</button>
-            <button onClick={()=> setCount('')}>Clear</button>
+            <button className="key" onClick={a}>a</button>
+            <button className="key" onClick={b}>b</button>
+            <button className="key" onClick={c}>c</button>
+            <button className="key" onClick={d}>d</button>
+            <button className="key" onClick={e}>e</button>
+            <button className="key" onClick={f}>f</button>
+            <button className="key" onClick={g}>g</button>
+            <button className="key" onClick={h}>h</button>
+            <button className="key" onClick={i}>i</button>
+            <button className="key" onClick={j}>j</button>
+            <button className="key" onClick={k}>k</button>
+            <button className="key" onClick={l}>l</button>
+            <button className="key" onClick={m}>m</button>
+            <button className="key" onClick={n}>n</button>
+            <button className="key" onClick={o}>o</button>
+            <br></br>
+            <button className="key" onClick={p}>p</button>
+            <button className="key" onClick={q}>q</button>
+            <button className="key" onClick={r}>r</button>
+            <button className="key" onClick={s}>s</button>
+            <button className="key" onClick={t}>t</button>
+            <button className="key" onClick={u}>u</button>
+            <button className="key" onClick={v}>v</button>
+            <button className="key" onClick={w}>w</button>
+            <button className="key" onClick={x}>x</button>
+            <button className="key" onClick={y}>y</button>
+            <button className="key" onClick={z}>z</button>
+            <button className="key2" onClick={()=> setCount('')}>Clear</button>
         </div>
     )
 }
