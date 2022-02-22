@@ -1,20 +1,16 @@
-
-   
-import logo from './logo.svg';
 import './App.css';
-
-import Keyboard, {x,y} from './Keyboard'
+import Keyboard from './Keyboard';
+import DemoContainer from './DemoContainer';
 
 function App() {
-  const handleClickYo = ()=>{
-    y()
-  }
-  return (
-    <div className="App">
-     <h1 className='welcome'>Make Your Wish</h1>
-     <Keyboard title={'I wish...'} />
-    </div>
-  );
+    return (
+        <div>
+            <h1>What do you wish for?</h1>
+            <DemoContainer header='Enter You Wish'>
+                <Keyboard />
+            </DemoContainer>
+        </div>
+    );
 }
 
 export default App;
